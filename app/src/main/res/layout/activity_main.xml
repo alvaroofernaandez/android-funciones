@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/txvTitulo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Funciones  📱"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txvValoresIniciales"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:gravity="center"
+        android:text="Valores iniciales:"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/txvNum1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txvNum2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnIncrementar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:backgroundTint="#ACA4A4"
+        android:onClick="funcionIncrementar"
+        android:text="INCREMENTAR"
+        android:textColorHighlight="#857F7F"
+        android:textColorLink="#857F7F"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:backgroundTint="#ACA4A4"
+        android:onClick="funcionSumar"
+        android:text="SUMAR"
+        android:textColorHighlight="#857F7F"
+        android:textColorLink="#857F7F"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:backgroundTint="#ACA4A4"
+        android:onClick="funcionRestar"
+        android:text="RESTAR"
+        android:textColorHighlight="#857F7F"
+        android:textColorLink="#857F7F"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnMediaAritmetica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:backgroundTint="#ACA4A4"
+        android:onClick="funcionMediaAritmetica"
+        android:text="MEDIA ARITMETICA"
+        android:textColorHighlight="#857F7F"
+        android:textColorLink="#857F7F"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnFactorial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:backgroundTint="#ACA4A4"
+        android:onClick="funcionFactorial"
+        android:text="FACTORIAL"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.3"
+        android:backgroundTint="#ACA4A4"
+        android:onClick="funcionResetear"
+        android:text="RESETEAR"
+        android:textColorHighlight="#857F7F"
+        android:textColorLink="#857F7F"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txvFooter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="Footer - by Álvaro Fernández Amaro 2º DAM"
+        android:textSize="16sp" />
+
+</LinearLayout>
